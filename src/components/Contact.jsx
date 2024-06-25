@@ -28,7 +28,7 @@ const Contact = () => {
           href={`mailto: ${CONTACT.email}`}
           className="border-b"
         >
-          Email
+          {CONTACT.email}
         </motion.a>
       </div>
     </div>

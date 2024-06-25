@@ -13,10 +13,10 @@ import discountapp from '../assets/projects/item-discount.mp4';
 import docScanner from '../assets/projects/docScanner.mp4';
 
 export const HERO_CONTENT = `
-I am a new graduate in ICT & Software Engineering with solid knowledge in both frontend and backend development, has experience in C, C#, Python, Javascript/Typescript,Dart, and Java. I aim to enhance my technical and soft skills to become a reliable software engineer. Open to opportunities across frontend, backend, and DevOps, my long-term goal is to take on senior or technical lead roles. Excited to connect and explore potential collaborations!
+I am a new graduate in ICT & Software Engineering with solid knowledge in both frontend and backend development, has experience in C, C#, Python, Javascript/Typescript,Dart, and Java. Open to opportunities across frontend, mobile, backend, and DevOps roles.
 `;
 
-export const ABOUT_TEXT = `With four years of studying Software Engineering at university and one year of self-taught learning, I have discovered my passion for creating solutions to everyday problems and enjoy the process of turning concepts into reality. I am ready to immerse myself in challenging projects and have a strong desire to contribute to positive change with a like-minded team.`;
+export const ABOUT_TEXT = `After four years of studying Software Engineering at university, one year of internship, and one year of self-taught learning, I have discovered my passion for creating solutions to everyday problems and enjoy the process of turning concepts into reality. I am ready to immerse myself in challenging projects and have a strong desire to contribute to positive change with a like-minded team.`;
 
 export const EXPERIENCES = [
   {
@@ -182,5 +182,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: 'Rotterdam | Gorinchem,  Netherlands',
-  email: 'zhushenghang@hotmail.com',
+  email: 'contact@shenghangzhu.com',
 };
