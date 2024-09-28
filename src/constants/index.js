@@ -182,6 +182,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: 'Rotterdam | Gorinchem,  Netherlands',
+  address: 'Rotterdam | Den Haag,  Netherlands',
   email: 'contact@shenghangzhu.com',
 };
