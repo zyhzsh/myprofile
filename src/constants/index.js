@@ -65,6 +65,7 @@ export const PROJECTS = [
       'Nest',
       'PostgreSQL',
       'Vercel',
+      'OpenAI',
       'MongoDb',
       'Stripe',
       'Tailwind',
@@ -72,7 +73,7 @@ export const PROJECTS = [
     ],
   },
   {
-    title: 'Product, Iventory, Discount Mangement tool',
+    title: 'Product, Inventory, Discount Mangement tool',
     video: discountapp,
     description:
       'A coding challenge project to design a solution that can quickly apply discount rules dynamically to the items in the inventory.',
