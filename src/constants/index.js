@@ -55,6 +55,7 @@ export const PROJECTS = [
   {
     title:
       'DestinaDraft - Personal Note,Project,Idea vidualization management library tools',
+    website: 'https://www.destinadraft.com/',
     image: desitnaImg,
     description:
       'An innovative research management tool designed to streamline the way individuals and teams capture, organize, and share knowledge. The platform functions as a comprehensive personal idea library and reference management system, allowing users to easily record and access ideas in any format, manage research projects based on specific questions or outputs, and seamlessly generate detailed reports. Key features include automatic summarization and translation, research methods guidance, and an intelligent assistant to refine research questions. It addresses the common problem of information overload by providing a central platform for managing study notes, inspirational references, and visualizing ideas, ensuring that every piece of information is goal-oriented and efficiently organized.',
@@ -155,6 +156,7 @@ export const PROJECTS = [
   {
     title: 'Decision Matrix - A small weighted decision-making tool',
     image: dx,
+    website: 'https://d-x-zyhzsh.vercel.app/',
     description:
       'Ideas are ignited when analyzing and making decisions between different options, whether individually or in a team. To address these daily challenges, combined this with a previously learned concept to create a visualized weighted decision-making tool.',
     technologies: ['React'],
@@ -162,6 +164,7 @@ export const PROJECTS = [
   {
     title: 'CMS blog',
     image: blog,
+    website: 'https://grapgcms-react-blog.vercel.app/',
     description:
       'Completed a sample project to reinforce knowledge of React.js through an intensive course.',
     technologies: ['React', 'CMS'],
@@ -169,6 +172,8 @@ export const PROJECTS = [
   {
     title: 'De Nederlandse Voetafdruk APP - For Glow (Eindhoven Light event)',
     image: glow,
+    website:
+      'https://www.fontys.nl/nieuws/beleef-je-ecologische-voetdruk-tijdens-glow/',
     description:
       'Part of a development team that utilized the Flutter Framework to create a fully functional mobile application for Android. The project consisted of two versions: the original aimed to develop a mobile application for the Glow event, allowing visitors to engage with glow lighting art displays. The second version involved modifying the solution for educational purposes. Further information can be accessed through the provided link.',
     technologies: ['Dart/Flutter', 'GPS/Geofence'],
