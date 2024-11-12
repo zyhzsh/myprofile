@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import About from './components/About';
 import Experiences from './components/Experiences';
 import Hero from './components/Hero';
@@ -23,6 +24,7 @@ const App = () => {
         <Projects />
         <Contact />
       </div>
+      <Analytics />
     </div>
   );
 };
