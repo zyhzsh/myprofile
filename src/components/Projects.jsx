@@ -1,5 +1,6 @@
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
+import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -59,11 +60,17 @@ const Projects = () => {
               {project?.website && <a
                 href={project?.website}
                 target="_blank"
-                className="inline-block px-6 py-3 mt-4 text-sm font-medium text-black bg-gradient-to-r from-white to-black rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-purple-800"
+                className="w-36 block px-6 py-3 mt-4 text-sm font-medium text-black bg-gradient-to-r from-white to-black rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-purple-800"
               >
                 Visit Website
               </a>}
-
+              {project?.github && <a
+                href={project?.github}
+                target="_blank"
+                className="w-36 flex gap-2 items-center px-6 py-3 mt-4 text-sm font-medium text-black bg-gradient-to-r from-white to-black rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-purple-800"
+              >
+                <FaGithub /> <p>Github</p>
+              </a>}
             </motion.div>
 
             <hr className="w-5/12 my-6" />

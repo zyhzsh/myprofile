@@ -11,7 +11,7 @@ import syncEngine from '../assets/projects/sync-engine.jpg';
 import compliance from '../assets/projects/compliance.png';
 import discountapp from '../assets/projects/item-discount.mp4';
 import docScanner from '../assets/projects/docScanner.mp4';
-
+import marketingDashboard from '../assets/projects/marketing-dashboard.png';
 export const HERO_CONTENT = `
 I am a new graduate in ICT & Software Engineering with solid knowledge in both frontend and backend development, has experience in C, C#, Python, Javascript/Typescript,Dart, and Java. Open to opportunities across frontend, mobile, backend, and DevOps roles.
 `;
@@ -69,6 +69,21 @@ export const PROJECTS = [
       'OpenAI',
       'MongoDb',
       'Stripe',
+      'Tailwind',
+      'Shadcn/UI',
+    ],
+  },
+  {
+    title: 'Marketing Campaign Management System',
+    image: marketingDashboard,
+    github: 'https://github.com/zyhzsh/marketing-management',
+    description:
+      'A full-stack web application designed to streamline the creation and management of marketing campaigns. The system enables businesses to create campaigns, manage advertising channels, and track budget allocation. It ensures data integrity with strict validation rules, preventing any advertising channel from exceeding the campaign timeframe. Built as part of a 6-hour case study challenge, the project demonstrates efficient full-stack development, incorporating dynamic form validation, API-driven architecture, and comprehensive test coverage.',
+    technologies: [
+      'React',
+      'Typescript',
+      'Nest',
+      'PostgreSQL',
       'Tailwind',
       'Shadcn/UI',
     ],
@@ -188,6 +203,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: 'Rotterdam | Den Haag,  Netherlands',
+  address: 'Eindhoven  Netherlands',
   email: 'contact@shenghangzhu.com',
 };
