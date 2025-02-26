@@ -8,17 +8,51 @@ import blog from '../assets/projects/blog.png';
 import glow from '../assets/projects/glow.png';
 import ehealth from '../assets/projects/e-health.png';
 import syncEngine from '../assets/projects/sync-engine.jpg';
+import op from '../assets/projects/op.png';
+import dd from '../assets/projects/dd.png';
 import compliance from '../assets/projects/compliance.png';
 import discountapp from '../assets/projects/item-discount.mp4';
 import docScanner from '../assets/projects/docScanner.mp4';
 import marketingDashboard from '../assets/projects/marketing-dashboard.png';
 export const HERO_CONTENT = `
-I am a new graduate in ICT & Software Engineering with solid knowledge in both frontend and backend development, has experience in C, C#, Python, Javascript/Typescript,Dart, and Java. Open to opportunities across frontend, mobile, backend, and DevOps roles.
+Driven by curiosity, fueled by passion. A Software Engineer with experience in frontend, backend, and mobile development. Skilled in JavaScript/TypeScript, Dart, and Java. 
 `;
 
-export const ABOUT_TEXT = `After four years of studying Software Engineering at university, one year of internship, and one year of self-taught learning, I have discovered my passion for creating solutions to everyday problems and enjoy the process of turning concepts into reality. I am ready to immerse myself in challenging projects and have a strong desire to contribute to positive change with a like-minded team.`;
+export const ABOUT_TEXT = `
+I thrive on turning ideas into reality and enjoy tackling complex challenges. Now, I’m eager to contribute to meaningful projects and collaborate with like-minded teams to drive positive change.
+`;
 
 export const EXPERIENCES = [
+  {
+    year: 'Mar 2025 - Present',
+    role: 'Fullstack Software Developer/Engineer',
+    image: op,
+    company: 'Objective Platform',
+    description: ``,
+    technologies: [],
+  },
+  {
+    website: 'https://www.destinadraft.com/',
+    year: 'Aug 2024 - Present',
+    role: 'Founder & Developer',
+    image: dd,
+    company: 'DestinaDraft',
+    description:
+      'Designed and developed DestinaDraft from concept to implementation as a personal project.',
+    technologies: [
+      'React',
+      'Typescript',
+      'GCP',
+      'Nest',
+      'PostgreSQL',
+      'Vercel',
+      'OpenAI',
+      'MongoDb',
+      'Stripe',
+      'Tailwind',
+      'Shadcn/UI',
+    ],
+  },
   {
     year: 'Sep 2023 - Feb 2024',
     role: 'Software Engineer Intern',
@@ -58,7 +92,7 @@ export const PROJECTS = [
     website: 'https://www.destinadraft.com/',
     image: desitnaImg,
     description:
-      'An innovative research management tool designed to streamline the way individuals and teams capture, organize, and share knowledge. The platform functions as a comprehensive personal idea library and reference management system, allowing users to easily record and access ideas in any format, manage research projects based on specific questions or outputs, and seamlessly generate detailed reports. Key features include automatic summarization and translation, research methods guidance, and an intelligent assistant to refine research questions. It addresses the common problem of information overload by providing a central platform for managing study notes, inspirational references, and visualizing ideas, ensuring that every piece of information is goal-oriented and efficiently organized.',
+      'A writing mindmap management solution designed to streamline how individuals and teams capture, organize, and share knowledge. It provides a comprehensive personal idea library and reference management system, allowing users to effortlessly record and access ideas in any format, manage writing materials based on their preferences, and seamlessly generate structured profiles. By offering a central hub for study notes, inspirational references, and visualized idea resources, it ensures that every piece of information is goal-oriented and efficiently organized',
     technologies: [
       'React',
       'Typescript',
@@ -203,6 +237,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: 'Eindhoven  Netherlands',
+  address: 'Amsterdam Netherlands',
   email: 'contact@shenghangzhu.com',
 };
