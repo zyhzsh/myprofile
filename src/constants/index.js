@@ -284,5 +284,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: 'Amsterdam Netherlands',
-  email: 'contact@shenghangzhu.com',
+  email: 'zhushenghang@hotmail.com',
 };
