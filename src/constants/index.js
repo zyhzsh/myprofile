@@ -10,6 +10,8 @@ import ehealth from '../assets/projects/e-health.png';
 import syncEngine from '../assets/projects/sync-engine.jpg';
 import op from '../assets/projects/op.png';
 import dd from '../assets/projects/dd.png';
+import wjm from '../assets/projects/wjm.png';
+import wjmPImg from '../assets/projects/wejustmatchImg.png';
 import compliance from '../assets/projects/compliance.png';
 import discountapp from '../assets/projects/item-discount.mp4';
 import docScanner from '../assets/projects/docScanner.mp4';
@@ -24,12 +26,34 @@ I thrive on turning ideas into reality and enjoy tackling complex challenges. No
 
 export const EXPERIENCES = [
   {
+    year: 'Apr 2025 - Present',
+    role: 'Software Engineer & Product Owner & Founder',
+    image: wjm,
+    company: 'We Just Match',
+    description: `Started from zero to delivery. Currently still refining the concept and use cases, but already have some early users providing feedback.`,
+    technologies: [
+      'React',
+      'Typescript',
+      'GCP',
+      'NestJs',
+      'Clerk',
+      'PostgreSQL',
+      'Vercel',
+      'Stripe',
+      'Tailwind',
+      'Shadcn/UI',
+      'Supabase',
+      'PWA',
+      '...',
+    ],
+  },
+  {
     year: 'Mar 2025 - Present',
     role: 'Fullstack Software Developer/Engineer',
     image: op,
     company: 'Objective Platform',
-    description: ``,
-    technologies: [],
+    description: `Contributing to the development and maintenance of a comprehensive mixed media modelling SaaS platform designed for managing and optimizing marketing campaigns Insights.`,
+    technologies: ['Java/SpringBoot', 'Angular', '...'],
   },
   {
     website: 'https://www.destinadraft.com/',
@@ -51,6 +75,7 @@ export const EXPERIENCES = [
       'Stripe',
       'Tailwind',
       'Shadcn/UI',
+      '...',
     ],
   },
   {
@@ -86,6 +111,27 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title:
+      'We Just Match - One conversation at a time, building true connections.',
+    website: 'https://we-just-match.com/?lang=en',
+    image: wjmPImg,
+    description:
+      'We Just Match is a unique matchmaking platform designed to foster meaningful emotional connections through guided, one-on-one conversations. Unlike traditional dating apps that prioritize superficial interactions, our platform emphasizes depth and authenticity by facilitating structured dialogues between users.',
+    technologies: [
+      'React',
+      'Typescript',
+      'GCP',
+      'Nest',
+      'PostgreSQL',
+      'Vercel',
+      'MongoDb',
+      'Stripe',
+      'Tailwind',
+      'Shadcn/UI',
+      '...',
+    ],
+  },
   {
     title:
       'DestinaDraft - Personal Note,Project,Idea vidualization management library tools',
