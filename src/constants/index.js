@@ -11,6 +11,8 @@ import syncEngine from '../assets/projects/sync-engine.jpg';
 import op from '../assets/projects/op.png';
 import dd from '../assets/projects/dd.png';
 import wjm from '../assets/projects/wjm.png';
+import lf from '../assets/projects/lf.png';
+import lfdemo from '../assets/projects/lfdemo.png';
 import wjmPImg from '../assets/projects/wejustmatchImg.png';
 import compliance from '../assets/projects/compliance.png';
 import discountapp from '../assets/projects/item-discount.mp4';
@@ -25,6 +27,23 @@ I thrive on turning ideas into reality and enjoy tackling complex challenges. No
 `;
 
 export const EXPERIENCES = [
+  {
+    year: 'Mar 2026 - Present',
+    role: 'Founder & Full-Stack Engineer',
+    image: lf,
+    company: 'LazyFinder',
+    description: `Born out of a personal itch to navigate the hyper-competitive Dutch housing market, the initial concept successfully helped me find my first home. Diving deeper into the PropTech domain, I pivoted the core business logic from a B2C tool into a robust B2B2C SaaS solution empowering buying agents (aankoopmakelaars). Currently architecting and building the 3rd version of the POC.`,
+    technologies: [
+      'React',
+      'TypeScript',
+      'NestJs',
+      'ADK',
+      'PostgreSQL',
+      'cloudflare',
+      'GCP',
+      '...',
+    ],
+  },
   {
     year: 'Apr 2025 - Present',
     role: 'Software Engineer & Product Owner & Founder',
@@ -111,6 +130,24 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title:
+      'LazyFinder - A comprehensive SaaS platform for managing and finding houses for your clients in the Dutch housing market.',
+    description:
+      'LazyFinder is a comprehensive SaaS platform designed to empower real estate agents in the Dutch housing market. It offers AI tools and features that streamline the process of finding and managing properties for clients. With an intuitive interface and powerful search & analysis capabilities.',
+    image: lfdemo,
+    technologies: [
+      'React',
+      'TypeScript',
+      'NestJs',
+      'ADK',
+      'PostgreSQL',
+      'cloudflare',
+      'GCP',
+      '...',
+    ],
+  },
+
   {
     title:
       'We Just Match - One conversation at a time, building true connections.',
