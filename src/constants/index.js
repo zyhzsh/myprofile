@@ -16,6 +16,7 @@ import discountapp from '../assets/projects/item-discount.mp4';
 import docScanner from '../assets/projects/docScanner.mp4';
 import marketingDashboard from '../assets/projects/marketing-dashboard.png';
 import menumorrow from '../assets/projects/menumorrow-preview.png';
+import oncoprotocol from '../assets/projects/oncoprotocol-assist.webp';
 export const HERO_CONTENT =
   "I'm Shenghang, a full-stack developer based in the Netherlands. I enjoy taking an idea, figuring out how it could work, and building something people can try.";
 
@@ -95,6 +96,32 @@ export const PROJECTS = [
       'PostgreSQL',
       'GCP',
       'Cloudflare',
+    ],
+  },
+  {
+    title: 'OncoProtocol-Assist',
+    status: 'One-day hackathon, team of five',
+    image: oncoprotocol,
+    imageAlt:
+      'OncoProtocol-Assist answering a neuroblastoma staging question. Each statement has a numbered citation, and the cited protocol page is open on the right with the quoted passage highlighted.',
+    caption: 'An answer with its cited protocol page open and the quote highlighted',
+    description:
+      "At a BSPHO and Google Cloud hackathon in Ghent (Oct 2026), five of us from Objective Platform built a search assistant for paediatric cancer clinicians working through thousands of pages of trial protocols. Doctors won't trust an answer they can't check, so every statement links to its page.",
+    details: [
+      'I built the interface and the answer pipeline. Before an answer is shown, each statement needs a quote found on the cited page, and any dose or number must appear in that quote; anything that fails is dropped.',
+      "We split the work by area and built in parallel. Early on I listed what the screens needed from the backend, so teammates knew what to build first. They later added follow-up questions and subprotocol search on top of my pipeline, and I plugged a teammate's Vertex AI RAG search into it.",
+    ],
+    technologies: [
+      'React',
+      'TypeScript',
+      'Tailwind',
+      'Shadcn/UI',
+      'Python / FastAPI',
+      'Claude',
+      'GCS',
+      'Pub/Sub',
+      'Vertex AI RAG Engine',
+      'Cloud Run',
     ],
   },
   {
