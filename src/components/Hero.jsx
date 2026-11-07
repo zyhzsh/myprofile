@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+    <section className="border-b border-neutral-800 pb-12">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -21,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
+              className="mb-6 text-5xl font-light lg:mt-12 lg:text-7xl"
             >
               Shenghang Zhu
             </motion.h1>
@@ -29,15 +29,15 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
+              className="text-2xl text-cyan-200"
             >
-              Full Stack Engineer/Developer
+              Full-stack developer
             </motion.span>
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 text-lg leading-relaxed text-neutral-300"
             >
               {HERO_CONTENT}
             </motion.p>
@@ -51,12 +51,13 @@ const Hero = () => {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
-              alt="profile picture"
+              alt="Shenghang Zhu"
+              className="max-h-[420px] w-full object-contain"
             />
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

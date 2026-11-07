@@ -9,92 +9,41 @@ import glow from '../assets/projects/glow.png';
 import ehealth from '../assets/projects/e-health.png';
 import syncEngine from '../assets/projects/sync-engine.jpg';
 import op from '../assets/projects/op.png';
-import dd from '../assets/projects/dd.png';
-import wjm from '../assets/projects/wjm.png';
-import lf from '../assets/projects/lf.png';
 import lfdemo from '../assets/projects/lfdemo.png';
 import wjmPImg from '../assets/projects/wejustmatchImg.png';
 import compliance from '../assets/projects/compliance.png';
 import discountapp from '../assets/projects/item-discount.mp4';
 import docScanner from '../assets/projects/docScanner.mp4';
 import marketingDashboard from '../assets/projects/marketing-dashboard.png';
-export const HERO_CONTENT = `
-Driven by curiosity, fueled by passion. A Software Engineer with experience in frontend, backend, and mobile development. Skilled in JavaScript/TypeScript, Dart, and Java. 
-`;
+import menumorrow from '../assets/projects/menumorrow-preview.png';
+export const HERO_CONTENT =
+  "I'm Shenghang, a full-stack developer based in the Netherlands. I enjoy taking an idea, figuring out how it could work, and building something people can try.";
 
-export const ABOUT_TEXT = `
-I thrive on turning ideas into reality and enjoy tackling complex challenges. Now, I’m eager to contribute to meaningful projects and collaborate with like-minded teams to drive positive change.
-`;
+export const ABOUT_TEXT =
+  'I like having a say in what we build, not just how we build it. That might mean trying a different interaction, asking why a business rule exists, or realising that clearer instructions would help more than another feature. My own projects give me room to try those ideas and find out what happens when people use them.';
 
 export const EXPERIENCES = [
   {
-    year: 'Mar 2026 - Present',
-    role: 'Founder & Full-Stack Engineer',
-    image: lf,
-    company: 'LazyFinder',
-    description: `Born out of a personal itch to navigate the hyper-competitive Dutch housing market, the initial concept successfully helped me find my first home. Diving deeper into the PropTech domain, I pivoted the core business logic from a B2C tool into a robust B2B2C SaaS solution empowering buying agents (aankoopmakelaars). Currently architecting and building the 3rd version of the POC.`,
-    technologies: [
-      'React',
-      'TypeScript',
-      'NestJs',
-      'ADK',
-      'PostgreSQL',
-      'cloudflare',
-      'GCP',
-      '...',
-    ],
-  },
-  {
-    year: 'Apr 2025 - Present',
-    role: 'Software Engineer & Product Owner & Founder',
-    image: wjm,
-    company: 'We Just Match',
-    description: `Started from zero to delivery. Currently still refining the concept and use cases, but already have some early users providing feedback.`,
-    technologies: [
-      'React',
-      'Typescript',
-      'GCP',
-      'NestJs',
-      'Clerk',
-      'PostgreSQL',
-      'Vercel',
-      'Stripe',
-      'Tailwind',
-      'Shadcn/UI',
-      'Supabase',
-      'PWA',
-      '...',
-    ],
-  },
-  {
     year: 'Mar 2025 - Present',
-    role: 'Fullstack Software Developer/Engineer',
+    role: 'Full-Stack Software Developer',
     image: op,
     company: 'Objective Platform',
-    description: `Contributing to the development and maintenance of a comprehensive mixed media modelling SaaS platform designed for managing and optimizing marketing campaigns Insights.`,
-    technologies: ['Java/SpringBoot', 'Angular', '...'],
-  },
-  {
-    website: 'https://www.destinadraft.com/',
-    year: 'Aug 2024 - Present',
-    role: 'Founder & Developer',
-    image: dd,
-    company: 'DestinaDraft',
     description:
-      'Designed and developed DestinaDraft from concept to implementation as a personal project.',
+      'I work on marketing analytics and forecasting software, across the interface, backend and deployment. A lot of the job is understanding what the numbers should mean to the person using them.',
+    highlights: [
+      'Built scenario versioning and saved optimization results, so users can return to the same result later rather than see it change underneath them.',
+      'Took an AI agent from prototype to a deployed service, including its deployment pipeline, and built features connecting it to existing product workflows.',
+      'Worked with product and data science colleagues on clearer interactions, business rules and production issues. I also built UI prototypes to try ideas before committing to them.',
+    ],
     technologies: [
-      'React',
-      'Typescript',
-      'GCP',
-      'Nest',
+      'TypeScript',
+      'Angular',
+      'Java / Spring Boot',
       'PostgreSQL',
-      'Vercel',
-      'OpenAI',
-      'MongoDb',
-      'Stripe',
-      'Tailwind',
-      'Shadcn/UI',
-      '...',
+      'MongoDB',
+      'Google ADK',
+      'GCP',
+      'DuckDB',
     ],
   },
   {
@@ -102,20 +51,15 @@ export const EXPERIENCES = [
     role: 'Software Engineer Intern',
     image: syncEngine,
     company: 'byCape BV',
-    description: `Conducted an in-depth analysis of the existing system to design and implement an in-house data synchronization solution, enabling real-time collaboration features for the software system. This initiative involved comprehensive stages, from research and design to development and testing, resulting in the successful delivery of an innovative mechanism that unlocks the product’s real-time collaboration capabilities. The process included researching and analyzing existing systems to balance innovation and constraints, conducting usability tests to validate solutions and improve design, performing load tests to identify and address bottlenecks, and delivering and testing integration documentation for the development team to ensure proper solution handover.`,
+    description:
+      'Built a synchronization prototype for collaborative editing, where people could change the same content without overwriting each other. I tested it in two editing modules, ran load tests and documented the design and integration steps for the team.',
     technologies: [
-      'GCP',
-      'Docker',
-      'GitLab',
-      'CRDTs',
-      'Cypress',
-      'React',
-      'Redux',
-      'Node',
-      'Express.js',
-      'WebRTC',
-      'WebSockets',
       'TypeScript',
+      'Node.js',
+      'Y.js / CRDTs',
+      'WebSockets',
+      'Redis',
+      'Cypress',
     ],
   },
   {
@@ -124,78 +68,86 @@ export const EXPERIENCES = [
     image: compliance,
     company: 'Bosch Security and Safety Systems BV',
     description:
-      'Contributed to a project aimed at developing an automated tool for internal product compliance checking, with responsibilities spanning both frontend development and backend support. Redesigned the user interface and workflow based on design principles to significantly enhance user experience, which involved refactoring the existing codebase and streamlining user interaction. Conducted thorough domain research by interviewing compliance managers, engineers, and collaborating with the backend developer to gather requirements and translate them into actionable tasks. Adopted an agile workflow with iterative releases and regular testing with the product owner, ensuring timely and user-focused improvements.',
-    technologies: ['C#', 'React', 'Redux', 'MUI', 'MySQL', 'Windows server'],
+      'Worked on the React interface for an internal product-compliance tool. I interviewed compliance managers and engineers to understand their work, then adjusted the screens and workflows with the product owner and backend developer.',
+    technologies: ['React', 'Redux', 'MUI', 'C#', 'MySQL'],
   },
 ];
 
 export const PROJECTS = [
   {
-    title:
-      'LazyFinder - A comprehensive SaaS platform for managing and finding houses for your clients in the Dutch housing market.',
+    title: 'MenuMorrow',
+    status: 'In development',
+    website: 'https://menumorrow.com/',
+    linkLabel: 'Project site',
+    image: menumorrow,
+    imageAlt: 'MenuMorrow landing page preview for the product in development',
+    caption: 'Landing page preview',
     description:
-      'LazyFinder is a comprehensive SaaS platform designed to empower real estate agents in the Dutch housing market. It offers AI tools and features that streamline the process of finding and managing properties for clients. With an intuitive interface and powerful search & analysis capabilities.',
-    image: lfdemo,
+      "I'm building an ordering tool for independent food makers and small shops. The idea is to give them one link for a batch of preorders or a regular menu, instead of piecing orders together from messages.",
+    details: [
+      "I've built sign-up, a flow for sellers to register their kitchen, and the deployment setup. Menu management is in progress; ordering and payments are still to come.",
+      "I'm working through the product scope as well as the code, keeping each step small enough to test before adding the next one.",
+    ],
     technologies: [
       'React',
       'TypeScript',
-      'NestJs',
-      'ADK',
+      'NestJS',
       'PostgreSQL',
-      'cloudflare',
       'GCP',
-      '...',
+      'Cloudflare',
     ],
   },
-
   {
-    title:
-      'We Just Match - One conversation at a time, building true connections.',
+    title: 'WeJustMatch',
+    status: 'Used across three events',
     website: 'https://we-just-match.com/?lang=en',
     image: wjmPImg,
     description:
-      'We Just Match is a unique matchmaking platform designed to foster meaningful emotional connections through guided, one-on-one conversations. Unlike traditional dating apps that prioritize superficial interactions, our platform emphasizes depth and authenticity by facilitating structured dialogues between users.',
-    technologies: [
-      'React',
-      'Typescript',
-      'GCP',
-      'Nest',
-      'PostgreSQL',
-      'Vercel',
-      'MongoDb',
-      'Stripe',
-      'Tailwind',
-      'Shadcn/UI',
-      '...',
+      'A friend asked whether his manually organised matchmaking event could become a product. I built the platform, from the event format and UX to matching, chat, payments and deployment.',
+    details: [
+      'It reached 80 registered users, with around 60 people taking part across three events.',
+      'Real use changed the product: I added exclusions for friends attending together and removed age from the first match screen. Sometimes the useful change was better event instructions, not more code.',
     ],
+    technologies: ['React', 'TypeScript', 'NestJS', 'PostgreSQL', 'Stripe'],
   },
   {
-    title:
-      'DestinaDraft - Personal Note,Project,Idea vidualization management library tools',
+    title: 'DestinaDraft',
+    status: 'Independent project',
     website: 'https://www.destinadraft.com/',
     image: desitnaImg,
     description:
-      'A writing mindmap management solution designed to streamline how individuals and teams capture, organize, and share knowledge. It provides a comprehensive personal idea library and reference management system, allowing users to effortlessly record and access ideas in any format, manage writing materials based on their preferences, and seamlessly generate structured profiles. By offering a central hub for study notes, inspirational references, and visualized idea resources, it ensures that every piece of information is goal-oriented and efficiently organized',
+      'A personal project for collecting notes and references and organising ideas visually. I designed and built it to explore how a writing workspace could connect scattered material.',
     technologies: [
       'React',
-      'Typescript',
+      'TypeScript',
       'GCP',
-      'Nest',
+      'NestJS',
       'PostgreSQL',
       'Vercel',
       'OpenAI',
-      'MongoDb',
+      'MongoDB',
       'Stripe',
       'Tailwind',
       'Shadcn/UI',
     ],
+  },
+  {
+    title: 'LazyFinder',
+    status: 'Personal tool / product exploration',
+    image: lfdemo,
+    description:
+      'When my wife and I were looking for a home, comparing listings and preparing for viewings took a lot of time. I built an AI-assisted workflow that collected and filtered listings, then turned them into reports based on what mattered to us.',
+    details: [
+      'We used it to narrow our viewing list during the search that led to our home. I later explored how the same approach could help buying agents; that version remains a prototype.',
+    ],
+    technologies: ['React', 'TypeScript', 'NestJS', 'PostgreSQL', 'AI agents'],
   },
   {
     title: 'Marketing Campaign Management System',
     image: marketingDashboard,
     github: 'https://github.com/zyhzsh/marketing-management',
     description:
-      'A full-stack web application designed to streamline the creation and management of marketing campaigns. The system enables businesses to create campaigns, manage advertising channels, and track budget allocation. It ensures data integrity with strict validation rules, preventing any advertising channel from exceeding the campaign timeframe. Built as part of a 6-hour case study challenge, the project demonstrates efficient full-stack development, incorporating dynamic form validation, API-driven architecture, and comprehensive test coverage.',
+      'A six-hour coding challenge for managing campaigns, advertising channels and budgets. I connected the React forms to a NestJS API and added validation, including checks that channel dates stay within the campaign dates.',
     technologies: [
       'React',
       'Typescript',
@@ -206,7 +158,7 @@ export const PROJECTS = [
     ],
   },
   {
-    title: 'Product, Inventory, Discount Mangement tool',
+    title: 'Inventory and discount tool',
     video: discountapp,
     description:
       'A coding challenge project to design a solution that can quickly apply discount rules dynamically to the items in the inventory.',
@@ -220,7 +172,7 @@ export const PROJECTS = [
     ],
   },
   {
-    title: 'Letter tranlator, manager App',
+    title: 'Letter translator',
 
     video: docScanner,
     description:
@@ -228,7 +180,7 @@ export const PROJECTS = [
     technologies: ['Flutter/Dart', 'Camera/OCR', 'OPEN AI'],
   },
   {
-    title: 'Bike Corssing - Bike rental and donation platform',
+    title: 'Bike Crossing - Bike rental and donation platform',
     video: bike,
     description:
       'The project focuses on creating a bicycle rental and donation platform that encourages the reuse of idle resources. The platform provides a unique identity for each bike and includes self-monitoring mechanisms and community-building features. By promoting ownership awareness and encouraging responsible use, the app aims to reduce incidents of abuse and increase sustainability in the shared mobility industry and beyond.',
@@ -248,7 +200,7 @@ export const PROJECTS = [
     title: 'Voucker - A platform for promoting vouchers',
     image: voucker,
     description:
-      'Voucher is a web platform that specializes in the sales of vouchers, aimed at promoting and expanding the reach of small, locally-owned businesses by connecting them to a larger customer base.',
+      'Voucker is a project exploring voucher sales for small local businesses, with a web platform for connecting them with customers.',
     technologies: [
       'Next.js',
       'RabbitMq',
@@ -270,7 +222,7 @@ export const PROJECTS = [
     title: 'See-through Q&A Platform for visually impaired individuals',
     image: seethrough,
     description:
-      'As part of a research program at Fontys, participated in a conceptual project aimed at addressing the challenges faced by visually impaired individuals in their relationships and sexual development through the creation of a supportive online community platform. Utilized technologies including C# and .Net Core API, RabbitMQ, Typescript, Next.js, React.js, and Azure. Conducted comprehensive research and shared outcomes with the team and stakeholders. Responsible for designing and implementing software solutions while maintaining comprehensive documentation to support future development and scalability. Performed code reviews to ensure the highest quality of development, adherence to best practices, and the implementation of efficient code. Acted as a full-stack engineer, handling tasks from data modeling to system design and feature implementation.',
+      'A team research project at Fontys exploring a Q&A community for visually impaired people with questions about relationships and sexual development. I worked on data models, APIs and the interface, and shared research, documentation and code reviews with the team.',
     technologies: [
       'C#/.Net',
       'RabbitMq',
@@ -290,7 +242,7 @@ export const PROJECTS = [
     image: dx,
     website: 'https://d-x-zyhzsh.vercel.app/',
     description:
-      'Ideas are ignited when analyzing and making decisions between different options, whether individually or in a team. To address these daily challenges, combined this with a previously learned concept to create a visualized weighted decision-making tool.',
+      'A small React tool for comparing options against weighted criteria. I built it to make the trade-offs in a decision easier to see.',
     technologies: ['React'],
   },
   {
@@ -311,15 +263,15 @@ export const PROJECTS = [
     technologies: ['Dart/Flutter', 'GPS/Geofence'],
   },
   {
-    title: 'E-health Data Conversion BBF',
+    title: 'Healthcare data conversion prototype',
     image: ehealth,
     description:
-      'Collaborated in a team of 5-8 software engineers to design, model, and implement a proof-of-concept backend API server for two clients, Asolution (a healthcare data provider) and Eurocom (a mobile application solution provider). The project aimed to expose, translate, convert, and cache data from Asolution to Eurocom, ensuring seamless data integration and efficient performance between the two companies. Responsible for designing a proof-of-concept solution for exchanging data between Asolution and Eurocom’s mobile application.',
+      'Worked in a team on a backend proof of concept for exchanging data between a healthcare data provider and a mobile application. I helped design and implement the API for translating and caching the data.',
     technologies: ['Java/SpringBoot', 'Mysql', 'Docker', 'CI/CD', 'Github'],
   },
 ];
 
 export const CONTACT = {
-  address: 'Amsterdam Netherlands',
+  address: 'Lelystad, Netherlands',
   email: 'zhushenghang@hotmail.com',
 };
